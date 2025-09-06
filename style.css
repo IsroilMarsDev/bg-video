@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.headerContainer{
+    position: relative;
+}
+.title{
+    position: absolute;
+    top: 600px;
+    font-size: 48px;
+    color: white;
+}
+header{
+    position: absolute;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+button{
+
+}
